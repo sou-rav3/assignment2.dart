@@ -22,7 +22,11 @@ class GreetingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Greeting App'),
+        backgroundColor: Colors.white,
+        title: Text('Greeting App',
+        style: TextStyle(
+        color: Colors.black),)
+
       ),
       body: Center(
         child: Column(
